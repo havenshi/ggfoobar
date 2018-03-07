@@ -18,7 +18,7 @@ def matrixmult(matr_a, matr_b):
         return [0]
 
 # 最大公约数
-def hcf(a, b):
+def hcf(a, b): # 记住这个辗转相除法
     if a == 0 or b == 0:
         return 1
     if a < b:
